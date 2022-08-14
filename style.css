@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7vh;
+}
+
+.meta-container{
+    margin-bottom: 7vh;
+}
+
+.three {
+    margin-top: 6vh;
+}
+
+.five img {
+    margin-bottom: 4vh;
+}
+
+.six {
+    justify-content: space-evenly;
+}
+
+.three .titles p, .three .paragraphs p, .three .titles h3, .three .paragraphs h3{
+    text-align: left;
+}
+
+.meta-container {
+    display: flex;
+}
+
+.three .titles p, .three .paragraphs p, .five p {
+    position: relative;
+    bottom: 2vh;
+}
+
+.container div:not(.banner) {
+    margin-bottom: 2rem;
+}
+
+.banner {
+    width: 100%;
+    background-image: url(./images/bg-header-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 18rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img {
+    width: 7rem;
+    position: relative;
+    top: 3rem;
+}
+
+.computer img, .devices img {
+    width: 50vh;
+}
+
+.paragraphs, .titles {
+    text-align: center;
+    width: 55%;
+}
+
+h1 {
+    font-size: 4.7vh;
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 4vh;
+    }
+
+    p {
+        font-size: 2.5vh;
+    }
+
+    .paragraphs-header, .titles-header {
+        width: 80%;
+    }
+
+    .meta-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fifth {
+        flex-direction: column;
+    }
+
+    .six {
+        gap: 5vh;
+    }
+
+    .first {
+        margin-top: 4vh;
+    }
+
+    #last {
+        margin-bottom: 1vh;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .last {
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 18vh;
+        width: 145vh;
+    }
+
+    .last a {
+        line-height: 3rem;
+    }
+
+    .last .container , .last .meta-container{
+        margin-top: 2rem;
+    }
+
+    .fifth {
+        position: relative;
+        top: 5vh;
+        left: 4vh;
+    }
+
+}
+.ios, .mac {
+    padding: 1.5vh 2.5vh;
+    background-color: hsl(152, 55%, 53%);
+    border-radius: 3rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.mac {
+    background-color: rgba(176, 173, 180, 0.884);
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.last {
+    background-color: rgb(234, 236, 236);
+    margin-bottom: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.last a {
+    text-decoration: none;
+    color: black;
+}
+
+.first img {
+    width: 8vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
