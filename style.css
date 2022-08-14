@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -18,14 +17,6 @@ body {
 
 .meta-container{
     margin-bottom: 7vh;
-}
-
-.three {
-    margin-top: 6vh;
-}
-
-.five img {
-    margin-bottom: 4vh;
 }
 
 .six {
@@ -50,11 +41,8 @@ body {
 }
 
 .banner {
-    width: 100%;
     background-image: url(./images/bg-header-desktop.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 100%;
     margin: 0;
     height: 18rem;
     display: flex;
@@ -62,14 +50,8 @@ body {
     align-items: center;
 }
 
-.banner img {
-    width: 7rem;
-    position: relative;
-    top: 3rem;
-}
-
 .computer img, .devices img {
-    width: 50vh;
+    width: 45vh;
 }
 
 .paragraphs, .titles {
@@ -81,7 +63,7 @@ h1 {
     font-size: 4.7vh;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 790px) {
     h1 {
         font-size: 4vh;
     }
@@ -116,12 +98,14 @@ h1 {
     }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 790px) {
+    body {
+        width: 100%;
+    }
     .last {
         justify-content: space-evenly;
         align-items: flex-start;
         height: 18vh;
-        width: 145vh;
     }
 
     .last a {
@@ -129,12 +113,12 @@ h1 {
     }
 
     .last .container , .last .meta-container{
-        margin-top: 2rem;
+        margin-top: 0.8rem;
     }
 
     .fifth {
         position: relative;
-        top: 5vh;
+        top: 4vh;
         left: 4vh;
     }
 
@@ -160,7 +144,7 @@ h1 {
 
 .last {
     background-color: rgb(234, 236, 236);
-    margin-bottom: 0;
+    margin: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
