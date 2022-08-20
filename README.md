@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- [live site URL here: ([https://your-live-site-url.com)](https://bavi-boop.github.io/clipboard-landing-page-website/)
+- [live site URL here: ([Live Website)](https://bavi-boop.github.io/clipboard-landing-page-website/)
 
 ## My process
 
