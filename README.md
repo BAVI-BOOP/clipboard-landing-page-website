@@ -29,7 +29,7 @@ Users should be able to:
 ### Screenshot
 
 <p align="center">
-<a href="https://bavi-boop.github.io/clipboard-landing-page-website/"><img src="screenshot.jpg" alt="screenshot" width="720" height="650"></a>
+<a href="https://bavi-boop.github.io/clipboard-landing-page-website/"><img src="screenshot.jpg" alt="screenshot" width="720" height="620"></a>
 </p>
 
 
