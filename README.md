@@ -1,7 +1,10 @@
 <p align="center">
-<a href="https://www.linkedin.com/in/ahmet-ayd%C4%B1n-2583b1199/"><img src="Hello!.png" alt="screenshot" width="400" height="200"></a>
+<a href="https://www.linkedin.com/in/ahmet-ayd%C4%B1n-2583b1199/"><img src="Hello!.png" alt="screenshot" width="600" height="400"></a>
 </p>
-<hr>
+
+
+
+
 # Clipboard landing page 
 
 
