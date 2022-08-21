@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://www.linkedin.com/in/ahmet-ayd%C4%B1n-2583b1199/"><img src="Hello!.png" alt="screenshot" width="800" height="600"></a>
+<a href="https://www.linkedin.com/in/ahmet-ayd%C4%B1n-2583b1199/"><img src="Hello!.png" alt="screenshot"></a>
 </p>
 
 
